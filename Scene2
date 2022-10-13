@@ -6,7 +6,7 @@
 {
 - Gold > 1000: Wow. Business has been pretty good today. There’s a good few interesting characters in town too. For someone like me that’s fine. The more pockets full of clanking metal the better. I imagine to the right person though, these people could be trouble.
 }
-bruh
+
 -> Encounter1
 
 =Encounter1
@@ -14,7 +14,7 @@ I spot a cloaked figure approaching the stand from my peripherals. I welcome the
 
 "Hi! What can I do for you today?"
 
-They respond with a dialect and awkward tone.
+They respond with an unfamiliar dialect and awkward tone.
 
 “Uhhhh hi. I was wondering if you had any hero kil- I mean weapons. YES. WEAAPONS."
 
@@ -70,9 +70,11 @@ Hearing this brings me relief.
 
 "Perfect. Are you ready to actually do business?"
 
-“Oh of course! Now let’s see here. A dagger of fire, wielded by my- various orcs throughout this region; a staff of ice… These take me back! You’re a merchant with a fine eye to have all of these!”
+“Oh of course! Now let’s see here. {Inventory has DaggerFire:
+A dagger of fire, wielded by my- various orcs throughout this region;
+} {Inventory has StaffBlizzards: a staff of ice…} These take me back! You’re a merchant with a fine eye to have all of these!”
 
-"Bro these literally just fall in my lap. I don’t even know which end to hold some of these."
+"These literally just fall in my lap. I don’t even know which end to hold some of these."
 
 “Bah! You have a good selection, sure. But I need something a bit bigger than this.”
 
@@ -85,13 +87,13 @@ I swear if they don’t buy anything after I gave them the antidote…
 
 “I promise I have the coin!”
 
-They hold out a cow’s stomach full of jingling silver goodness.
+They hold out a cow’s stomach full of jingling golden goodness.
 
 "Done."
 
 I go into the back to find what I can.
 
-*{HaveScroll == 0}[Magic Crystal: ??]
+*{Inventory has MagicGem}[Magic Crystal: ??]
 
 ~ AntagonistRela -= 3
 ~ Inventory -= MagicGem
@@ -118,6 +120,8 @@ They hastily drop the bag of coins on the counter
 
 "Alright! Deal!"
 
+I now have {Gold} gold.
+
 Without saying another word the figure grabs the crystal and heads out. 
 
 "Strange… they suddenly gained a lot of confidence once I treated them. They often say some people just have colder blood than the rest of us. Heh, kinda like Mr. big bad out East. I wonder what- Oh my god that was Drekalynch Crawforanic."
@@ -139,6 +143,8 @@ They reach out and quickly but gently grab the scroll from my hands. This surpri
 “This is a particularly strong binding scroll. The dialect is old, so not many people can read it aloud, or procure a counter-spell for it. I’m surprised you had something like this. Would you be willing to part with it for say, 120?”
 
 "Wow that’s double what I was going to charge you! You got yourself a deal."
+
+I now have {Gold} gold.
 
 We shook hands on it and the headed on their way. I’m not entirely sure, but I think I sensed a smile under that mask. I just hope it wasn’t a shit-eating grin…
 
